@@ -23,9 +23,9 @@ app.layout = html.Div(
         html.H1("Tic Tac Toe"),
         html.Div(id="game_board",
                  children=[html.Button(id=f"cell-{idx}", n_clicks=0,style= {'width': '25%','height': '50px','marginBottom': 50, 'marginTop': 25}) for idx in range(0,3)]),
-        html.Div(id="game_board",
+        html.Div(id="game_board2",
                  children=[html.Button(id=f"cell-{idx}", n_clicks=0,style= {'width': '25%','height': '50px','marginBottom': 50, 'marginTop': 25}) for idx in range(3,6)]),         
-        html.Div(id="game_board",
+        html.Div(id="game_board3",
                  children=[html.Button(id=f"cell-{idx}", n_clicks=0,style= {'width': '25%','height': '50px','marginBottom': 50, 'marginTop': 25}) for idx in range(6,9)]),
 
         html.Button('Reset', id='reset_button'),
