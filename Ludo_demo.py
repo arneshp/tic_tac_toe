@@ -4,6 +4,7 @@ from dash import dcc
 from dash.dependencies import Input, Output, State
 
 app = dash.Dash(__name__)
+server = app.server
 
 game_state = [""] * 9
 player_turn = "X"
