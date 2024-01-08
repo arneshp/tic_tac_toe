@@ -60,4 +60,4 @@ def tic_tac_toe(*args):
     return game_state + ([f"Player {winner} wins!"] if winner else [""])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=False)
